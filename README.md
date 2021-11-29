@@ -13,13 +13,15 @@ Sistema desenvolvido como teste para vaga de Desenvolvedor Full Stack na SHIPSMA
 Link do Repositório
 ```
 https://github.com/marcellowb/agenda.git
+
 ```
 
-- Após baixar o o projeto do repositório, executar os comandos
 
+- Após baixar o o projeto do repositório, executar os comandos
 ```
 composer install
 npm install
+
 ```
 
 - Configurar as credenciais do banco de dados (mysql) no arquivo .env
@@ -27,15 +29,17 @@ npm install
 
 ```
 php artisan key:generate
+
 ```
 
 - Executar o comando para criação do banco de dados (migrations seeds)
 
 ```
 php artisan migrate --seed
+
 ```
 
-Executar o projeto
+- Executar o projeto
 
 ```
 Servidor Web: php artisan serve
